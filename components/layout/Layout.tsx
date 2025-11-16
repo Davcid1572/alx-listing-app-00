@@ -6,7 +6,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="min-h-screen">{children}</main>
+      <main className="min-h-screen p-4 font-quicksand md:p-6">{children}</main>
       <Footer />
     </>
   );

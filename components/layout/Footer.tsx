@@ -116,8 +116,8 @@ const Footer: React.FC = () => {
       <div className="pt-6 pb-4 mt-8 border-t border-gray-300">
         <div className="flex flex-col items-center justify-between max-w-6xl px-6 mx-auto text-sm md:flex-row">
           <p>
-            &copy; {new Date().getFullYear()} My Listing App. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} My Alx clone Listing App. All
+            rights reserved.
           </p>
           <div className="flex mt-4 space-x-4 md:mt-0">
             <Link href="https://facebook.com" aria-label="Facebook">
