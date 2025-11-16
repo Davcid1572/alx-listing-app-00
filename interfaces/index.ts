@@ -65,3 +65,10 @@ export interface AvatarProps {
   border?: boolean;
   className?: string;
 }
+
+export interface CategoryProps {
+  label: string;
+  icon: string;
+  active?: boolean;
+  onClick?: () => void;
+}
