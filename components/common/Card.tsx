@@ -17,15 +17,14 @@ const Card: React.FC<CardProps> = ({ property }) => {
     <div className="relative w-full h-full cursor-pointer hover:shadow-md hover:rounded-lg">
       <Link href={`/property/${property.name}`}>
         <Image
-          src={property.image[0] || "/images/fallback.jpg"}
-          alt={property.name || "house image"}
+          src={property.image || "/images/fallback.jpg"}
+          alt={property.name}
           width={400}
           height={300}
+          onError={() => console.log("image error")}
           className="rounded-t-lg"
-          onError={(e) => {
-            e.currentTarget.src = "/images/fallback.jpg";
-          }}
         />
+
         <div className="flex flex-col justify-between p-4">
           <div className="flex flex-wrap justify-start gap-4 mb-4">
             {property.category.map((cat) => (

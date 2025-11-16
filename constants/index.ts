@@ -15,71 +15,71 @@ export const HOUSE = "/assets/images/house.png";
 export const CATEGORIES = [
   {
     name: "Rooms",
-    image: "/assets/icons/living-room 1.svg",
+    image: "/assets/images/icons/living-room.png",
   },
   {
     name: "Mansion",
-    image: "/assets/icons/mansion 1.png",
+    image: "/assets/images/icons/mansion.png",
   },
   {
     name: "Countryside",
-    image: "/assets/icons/farm 1.png",
+    image: "/assets/images/icons/farm.png",
   },
   {
     name: "Villa",
-    image: "/assets/icons/villa 1.svg",
+    image: "/assets/images/icons/villa.png",
   },
-  {
-    name: "Tropical",
-    image: "/assets/icons/palm-tree 1.svg",
-  },
+  // {
+  //   name: "Tropical",
+  //   image: "/assets/icons/palm-tree 1.svg",
+  // },
   {
     name: "New",
-    image: "/assets/icons/key-chain 1.svg",
+    image: "/assets/images/icons/key-chain.png",
   },
   {
     name: "Amazing pool",
-    image: "/assets/icons/swimming-pool 1.svg",
+    image: "/assets/images/icons/swimming-pool.png",
   },
   {
     name: "Beach house",
-    image: "/assets/icons/vacations 1.svg",
+    image: "/assets/images/icons/vacations.png",
   },
   {
     name: "Island",
-    image: "/assets/icons/island (1) 1.svg",
+    image: "/assets/images/icons/island.png",
   },
   {
     name: "Camping",
-    image: "/assets/icons/tent 1.svg",
+    image: "/assets/images/icons/tent.png",
   },
   {
     name: "Apartment",
-    image: "/assets/icons/apartment 1.svg",
+    image: "/assets/images/icons/apartment.png",
   },
   {
     name: "House",
-    image: "/assets/icons/home 1.svg",
+    image: "/assets/images/icons/home.png",
   },
   {
     name: "Lakefront",
-    image: "/assets/icons/cottage 1.svg",
+    image: "/assets/images/icons/cottage.png",
   },
   {
     name: "Farm house",
-    image: "/assets/icons/barn 1.svg",
+    image: "/assets/images/icons/barn.png",
   },
   {
     name: "Treehouse",
-    image: "/assets/icons/treehouse (1) 1.svg",
+    image: "/assets/images/icons/treehouse.png",
   },
   {
     name: "Cabins",
-    image: "/assets/icons/cabin 1.svg",
+    image: "/assets/images/icons/cabin.png",
   },
   {
     name: "Castles",
-    image: "/assets/icons/castle-tower 1.svg",
+    image: "/assets/images/icons/castle-tower.png",
   },
 ];
 

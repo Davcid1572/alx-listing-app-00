@@ -25,7 +25,7 @@ const Category: React.FC<CategoryProps> = ({
       >
         {label}
         {active && (
-          <span className="absolute bottom-[-4px] left-0 w-full h-0.5 bg-[#34967C]"></span>
+          <span className="absolute bottom-\[-4px] left-0 w-full h-0.5 bg-[#34967C]"></span>
         )}
       </span>
     </button>
