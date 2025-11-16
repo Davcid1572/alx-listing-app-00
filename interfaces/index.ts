@@ -78,3 +78,9 @@ export interface PillProps {
   active?: boolean;
   onClick?: () => void;
 }
+
+export interface CardProps {
+  property: PropertyProps;
+  activeFilter?: string;
+  setActiveFilter?: (filter: string) => void;
+}

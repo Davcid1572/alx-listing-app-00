@@ -1,5 +1,88 @@
 import { PropertyProps } from "@/interfaces";
 
+export const API_URL = "https://api.example.com/listings";
+export const APP_NAME = "ALX Listing App";
+export const DEFAULT_CURRENCY = "USD";
+export const UI_TEXT = {
+  BOOK_NOW: "Book Now",
+  DETAILS: "View Details",
+  LOADING: "Loading...",
+};
+
+export const HEROSECTION_BG_IMAGE = "/assets/images/homepage_background1.png";
+export const HOUSE = "/assets/images/house.png";
+
+export const CATEGORIES = [
+  {
+    name: "Rooms",
+    image: "/assets/icons/living-room 1.svg",
+  },
+  {
+    name: "Mansion",
+    image: "/assets/icons/mansion 1.png",
+  },
+  {
+    name: "Countryside",
+    image: "/assets/icons/farm 1.png",
+  },
+  {
+    name: "Villa",
+    image: "/assets/icons/villa 1.svg",
+  },
+  {
+    name: "Tropical",
+    image: "/assets/icons/palm-tree 1.svg",
+  },
+  {
+    name: "New",
+    image: "/assets/icons/key-chain 1.svg",
+  },
+  {
+    name: "Amazing pool",
+    image: "/assets/icons/swimming-pool 1.svg",
+  },
+  {
+    name: "Beach house",
+    image: "/assets/icons/vacations 1.svg",
+  },
+  {
+    name: "Island",
+    image: "/assets/icons/island (1) 1.svg",
+  },
+  {
+    name: "Camping",
+    image: "/assets/icons/tent 1.svg",
+  },
+  {
+    name: "Apartment",
+    image: "/assets/icons/apartment 1.svg",
+  },
+  {
+    name: "House",
+    image: "/assets/icons/home 1.svg",
+  },
+  {
+    name: "Lakefront",
+    image: "/assets/icons/cottage 1.svg",
+  },
+  {
+    name: "Farm house",
+    image: "/assets/icons/barn 1.svg",
+  },
+  {
+    name: "Treehouse",
+    image: "/assets/icons/treehouse (1) 1.svg",
+  },
+  {
+    name: "Cabins",
+    image: "/assets/icons/cabin 1.svg",
+  },
+  {
+    name: "Castles",
+    image: "/assets/icons/castle-tower 1.svg",
+  },
+];
+
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {
     name: "Villa Ocean Breeze",
